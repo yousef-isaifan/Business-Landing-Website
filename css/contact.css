@@ -1,0 +1,44 @@
+.contact-banner {
+   background-color: #6d4c41;
+   text-align: center;
+   color: white;
+   padding: 40px 0;
+}
+
+.contact-info {
+   text-align: center;
+   padding: 20px;
+}
+
+.contact-info p a {
+   color: #6d4c41;
+   text-decoration: none;
+}
+
+.contact-form {
+   max-width: 500px;
+   margin: auto;
+   padding: 20px;
+}
+
+.contact-form label {
+   display: block;
+   margin: 10px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+   width: 100%;
+   padding: 8px;
+   margin-bottom: 10px;
+   border: 1px solid #6d4c41;
+   border-radius: 5px;
+}
+
+.btn {
+   background-color: #6d4c41;
+   color: white;
+   padding: 10px 15px;
+   border: none;
+   cursor: pointer;
+}
