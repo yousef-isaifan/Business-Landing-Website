@@ -7,12 +7,17 @@
     <title>Coffee Bliss - Home</title>
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
 </head>
 <body>
 
     <header>
         <nav>
-            <div class="logo">Coffee Bliss</div>
+            <div class="logo">
+                <a href="index.html" class="logo-link">
+                    <img src="images/favicon.png" alt="icon">
+                    Coffee Bliss</a>
+            </div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="pages/contact.html">Contact</a></li>
@@ -24,11 +29,11 @@
         <div class="hero-content">
             <h1>COFFEE BLISS</h1>
             <p>Experience the finest coffee in town.</p>
-            <a href="#" class="btn">Discover More</a>
+            <a href="#info" class="btn">Discover More</a>
         </div>
     </section>
 
-    <section class="info">
+    <section class="info" id="info">
         <h2>Why Choose Us?</h2>
         <div class="info-cards">
             <div class="card">
@@ -66,8 +71,18 @@
 
     <section class="about">
         <h2>About Us</h2>
-        <p>At Coffee Bliss, we are dedicated to crafting the perfect cup of coffee. Our passion for quality and customer satisfaction drives everything we do.</p>
+        <div class="about-content">
+            <div class="about-text">
+                <p>At Coffee Bliss, we are dedicated to crafting the perfect cup of coffee. Our passion for quality and customer satisfaction drives everything we do.</p>
+                <p>We carefully source our coffee beans from the best farms worldwide, ensuring an unforgettable coffee experience in every cup.</p>
+                <p>Our cozy cafe is designed to be a welcoming space for coffee lovers, where every detail is tailored to enhance your coffee moments.</p>
+            </div>
+            <div class="about-img">
+                <img src="images/about-coffee-shop.webp" alt="Our Coffee Shop">
+            </div>
+        </div>
     </section>
+    
 
     <footer>
         <p>&copy; 2025 Coffee Bliss. All rights reserved.</p>

@@ -8,8 +8,12 @@
 body {
    background-color: #f8f1e4;
    color: #5a3e2b;
+   padding-top: 70px;
 }
 
+html {
+   scroll-behavior: smooth;
+}
 
 header {
    background-color: #8d6e63;
@@ -23,6 +27,7 @@ header {
    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+
 nav {
    display: flex;
    justify-content: space-between;
@@ -32,11 +37,29 @@ nav {
    padding: 0 20px;
 }
 
+
 .logo {
+   display: flex;
+   align-items: center;
+}
+
+
+.logo img {
+   width: 40px;
+   height: 40px;
+   margin-right: 10px;
+}
+
+
+.logo a {
+   text-decoration: none;
    font-size: 1.5rem;
    font-weight: bold;
    color: white;
+   display: flex;
+   align-items: center;
 }
+
 
 .nav-links {
    list-style: none;
