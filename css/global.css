@@ -10,10 +10,17 @@ body {
    color: #5a3e2b;
 }
 
+
 header {
    background-color: #8d6e63;
    padding: 1rem 0;
    text-align: center;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 nav {
@@ -22,6 +29,13 @@ nav {
    align-items: center;
    max-width: 1200px;
    margin: auto;
+   padding: 0 20px;
+}
+
+.logo {
+   font-size: 1.5rem;
+   font-weight: bold;
+   color: white;
 }
 
 .nav-links {
@@ -30,10 +44,22 @@ nav {
    gap: 20px;
 }
 
+.nav-links li {
+   display: inline;
+}
+
 .nav-links li a {
    text-decoration: none;
    color: white;
+   font-size: 1.2rem;
+   font-weight: bold;
+   transition: color 0.3s;
 }
+
+.nav-links li a:hover {
+   color: #ffcc80;
+}
+
 
 footer {
    background-color: #8d6e63;
@@ -41,4 +67,5 @@ footer {
    padding: 1rem 0;
    margin-top: 2rem;
    color: white;
+   font-size: 1rem;
 }
