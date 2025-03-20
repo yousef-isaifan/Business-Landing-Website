@@ -13,7 +13,6 @@ Coffee Bliss is a **fully responsive** and modern website designed for a coffee 
 ✅ **Info Section** – Highlights the café’s key features and services.  
 ✅ **About Section** – Left-aligned content for a structured and elegant design.  
 ✅ **Contact Page** – Includes a simple and user-friendly contact form.  
-✅ **No JavaScript Required** – Fully functional using only HTML & CSS.  
 
 ---
 
