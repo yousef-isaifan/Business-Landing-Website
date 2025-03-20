@@ -1,11 +1,10 @@
-/* Hero Section */
 .hero {
    background-image: url('../images/coffee-banner.webp');
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
    width: 100%;
-   height: 90vh;
+   height: 93vh;
    display: flex;
    align-items: center;
    justify-content: flex-start;
@@ -284,6 +283,6 @@
    }
 
    .about-img {
-      max-width: 90%;
+      max-width: 0%;
    }
 }
