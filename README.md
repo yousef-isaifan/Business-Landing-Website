@@ -66,10 +66,5 @@ The `/images` folder contains all necessary visuals for the website:
 
 ---  
 
-## 🔗 Contact  
-
-For inquiries, visit the **Contact Page** on the website.  
-
----  
 
 Built with ❤️ for Coffee Bliss ☕ | 2025
