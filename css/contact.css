@@ -1,25 +1,46 @@
+/* Contact Banner */
 .contact-banner {
    background-image: url('../images/contact-banner.webp');
    background-size: cover;
    background-position: center;
+   background-repeat: no-repeat;
    text-align: center;
    width: 100%;
    height: 90vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
    color: white;
-   padding: 70px 20px;
    font-size: 2.5rem;
    font-weight: bold;
-
 }
 
+/* Responsive Contact Banner */
+@media (max-width: 1024px) {
+   .contact-banner {
+      font-size: 2rem;
+      height: 80vh;
+   }
+}
 
+@media (max-width: 768px) {
+   .contact-banner {
+      font-size: 1.8rem;
+      height: 70vh;
+      padding: 50px 15px;
+   }
+}
+
+/* Contact Info */
 .contact-info {
    text-align: center;
    padding: 50px 20px;
    font-size: 1.4rem;
    color: #5a3e2b;
+   line-height: 1.8;
 }
 
+/* Contact Info Links */
 .contact-info p {
    margin: 10px 0;
 }
@@ -28,24 +49,32 @@
    color: #6d4c41;
    text-decoration: none;
    font-weight: bold;
-   transition: color 0.2s ease;
+   transition: color 0.3s ease-in-out;
 }
 
 .contact-info p a:hover {
    color: #d66d3d;
 }
 
+/* Responsive Contact Info */
+@media (max-width: 768px) {
+   .contact-info {
+      font-size: 1.2rem;
+      padding: 40px 15px;
+   }
+}
 
+/* Contact Form */
 .contact-form {
    max-width: 500px;
-   margin: auto;
+   margin: 40px auto;
    padding: 40px;
    background: white;
    border-radius: 10px;
    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-
+/* Contact Form Labels */
 .contact-form label {
    display: block;
    font-size: 1.2rem;
@@ -53,7 +82,7 @@
    color: #5a3e2b;
 }
 
-
+/* Input and Textarea Styles */
 .contact-form input,
 .contact-form textarea {
    width: 100%;
@@ -62,7 +91,7 @@
    border: 1px solid #6d4c41;
    border-radius: 5px;
    margin-bottom: 15px;
-   transition: border-color 0.3s ease;
+   transition: border-color 0.3s ease-in-out;
 }
 
 .contact-form input:focus,
@@ -71,46 +100,60 @@
    outline: none;
 }
 
-
+/* Textarea */
 .contact-form textarea {
    resize: none;
    height: 120px;
 }
 
-
+/* Submit Button */
 .contact-form .btn {
-   /* background-color: #6d4c41; */
+   display: block;
+   width: fit-content;
+   margin: 20px auto 0;
+   padding: 14px 28px;
+   font-size: 1.2rem;
+   font-weight: bold;
+   color: white;
    background: linear-gradient(to top, #a0522d 50%, #d2691e 50%);
    background-size: 100% 200%;
    background-position: 0 0%;
-   color: white;
    border-radius: 8px;
-   padding: 14px 28px;
-   font-size: 1.2rem;
    cursor: pointer;
-   display: block;
-   margin: 20px auto 0;
-   text-align: center;
-   width: fit-content;
    transition: background-position 0.3s ease-in-out;
-
+   text-align: center;
+   border: none;
 }
 
 .contact-form .btn:hover {
-   /* background-color: #a0522d; */
    background-position: 0 100%;
-
 }
 
+/* Responsive Contact Form */
+@media (max-width: 1024px) {
+   .contact-form {
+      max-width: 90%;
+      padding: 30px;
+   }
+}
 
 @media (max-width: 768px) {
-   .contact-banner {
-      font-size: 2rem;
-      padding: 80px 20px;
-   }
-
    .contact-form {
       width: 90%;
-      padding: 30px;
+      padding: 25px;
+   }
+
+   .contact-form label {
+      font-size: 1.1rem;
+   }
+
+   .contact-form input,
+   .contact-form textarea {
+      font-size: 1rem;
+   }
+
+   .contact-form .btn {
+      font-size: 1rem;
+      padding: 12px 24px;
    }
 }
