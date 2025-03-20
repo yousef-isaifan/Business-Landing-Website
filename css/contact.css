@@ -4,11 +4,12 @@
    background-position: center;
    text-align: center;
    width: 100%;
-   height: 80vh;
+   height: 90vh;
    color: white;
    padding: 70px 20px;
    font-size: 2.5rem;
    font-weight: bold;
+
 }
 
 
@@ -27,11 +28,11 @@
    color: #6d4c41;
    text-decoration: none;
    font-weight: bold;
-   transition: color 0.3s ease;
+   transition: color 0.2s ease;
 }
 
 .contact-info p a:hover {
-   color: #a0522d;
+   color: #d66d3d;
 }
 
 
